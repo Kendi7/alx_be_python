@@ -30,6 +30,6 @@ elif temperature_validation == 'C':
     converted = convert_to_fahrenheit(temperature)
     print(f"{temperature}°C is {converted}°F")
 else:
-    print("Invalid input. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
+    print("Invalid temperature. Please enter a numeric value")
 
     
