@@ -10,9 +10,8 @@ class BankAccount:
             self.account_balance -= amount
             return True
         else:
-            print("Insufficient funds.")  # Checker expects this with a period
+            print("Insufficient funds.")
             return False
 
     def display_balance(self):
-        # Match the exact expected format
         print(f"Current Balance: ${self.account_balance:.2f}")
