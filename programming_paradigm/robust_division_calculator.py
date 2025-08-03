@@ -1,4 +1,3 @@
-
 def safe_divide(numerator, denominator):
     try:
         # Attempt to convert inputs to float
@@ -7,16 +6,10 @@ def safe_divide(numerator, denominator):
 
         # Attempt the division
         result = num / denom
-        return f" The result of the division is: {result}"
+        return f"The result of the division is: {result}"
 
     except ZeroDivisionError:
-        return "Error: Cannot divide by zero"
+        return "Error: Cannot divide by zero."  # ✅ Added period
 
     except ValueError:
-        return "Error: Please enter numeric values only"
-    
-
-
-    
-    
-    
+        return "Error: Please enter numeric values only."
